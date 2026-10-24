@@ -1,0 +1,13 @@
+{
+  "$schema": "https://railway.com/railway.schema.json",
+  "build": {
+    "buildCommand": "pnpm run build",
+    "watchPatterns": ["app/**", "components/**", "lib/**", "db/**", "drizzle/**", "build/**", "config/**", "public/**", "scripts/**", "package.json", "pnpm-lock.yaml", "vite.config.ts"]
+  },
+  "deploy": {
+    "startCommand": "node scripts/railway-start.mjs",
+    "healthcheckPath": "/__health",
+    "healthcheckTimeout": 120,
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
