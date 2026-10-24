@@ -1,0 +1,4 @@
+শুধু bot.py ও central_push.py replace/add করুন।
+Railway Variables:
+CENTRAL_API_URL=https://YOUR-CENTRAL-SERVICE-DOMAIN/api/upload
+CENTRAL_API_SECRET=SAME_LONG_SECRET

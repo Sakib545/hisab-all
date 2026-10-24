@@ -1,0 +1,7 @@
+aiogram>=3.7,<4.0
+pandas>=2.2,<3.0
+openpyxl>=3.1,<4.0
+xlrd>=2.0,<3.0
+python-dotenv>=1.0,<2.0
+gspread>=6.1,<7.0
+google-auth>=2.30,<3.0
